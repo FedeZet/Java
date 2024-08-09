@@ -28,9 +28,6 @@ public class Orden {
         return total;
     }
 
-    public void mostrarOrden() {
-    }
-
     @Override
     public String toString() {
         var totalOrden = this.calcularTotal();
