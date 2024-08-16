@@ -3,8 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <title>Hola Mundo</title>
+        <!-- 2. CSS interno: Menos prioridad -->
+        <style>
+            body {
+                background-color: black;
+                color: white;
+            }
+            a {
+                color: hotpink;
+            }
+        </style>
     </head>
     <body>
+        <!-- 1. CSS - inline: Más prioridad -->
+        <p style="color:red">Hola Mundo</p>
         <p>Hola Mundo</p>
         <a href="pagina2.html">Ir a página 2</a>
     </body>
