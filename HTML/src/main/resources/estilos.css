@@ -1,0 +1,15 @@
+/* Definición de los estilos CSS */
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Estilos para los links */
+a {
+    color: hotpink;
+}
+/* elemento:evento {} */
+/* hover: flotar, pasar por encima del link */
+a:hover {
+    color: yellow;
+}
