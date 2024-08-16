@@ -13,3 +13,19 @@ a {
 a:hover {
     color: yellow;
 }
+
+/* Clases/Selectores */
+.texto-centrado {
+    text-align: center;
+}
+
+.titulo {
+    font-size: 200%;
+}
+/*
+Aplicar solamente a elementos específicos
+se utiliza el elemento después del punto
+p.texto-centrado {
+    text-align: center;
+}
+*/
